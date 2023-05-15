@@ -92,6 +92,6 @@ public class ControladorAutorizar extends HttpServlet {
     }
 
     private void ingresar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-      request.getRequestDispatcher("/formulario.jsp").forward(request, response);
+      request.getRequestDispatcher("/formulariojsf.xhtml").forward(request, response);
     }
 }
